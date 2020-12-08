@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace FikiSite.VKApi.Models.Commands
+namespace FikiBot.Models.Commands
 {
     public class VKClient
     {

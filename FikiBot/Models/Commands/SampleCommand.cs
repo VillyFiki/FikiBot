@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FikiSite.VKApi.Models.Commands
+namespace FikiBot.Models.Commands
 {
     public class SampleCommand : Command
     {

@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using FikiSite.VKApi.Models.Commands;
-using FikiSite.VKApi.Models.Response;
+using FikiBot.Models.Commands;
+using FikiBot.Models.Response;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace FikiSite.VkApi.Controllers
+namespace FikiBot.Controllers
 {
     [Route("vkapi/[controller]")]
     [ApiController]
