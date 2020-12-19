@@ -15,7 +15,7 @@ namespace FikiBot.Models.Commands
         {
             if (Name == null || command == null)
             {
-                return true;
+                return false;
             }
             return command.Contains(Name);
         }
