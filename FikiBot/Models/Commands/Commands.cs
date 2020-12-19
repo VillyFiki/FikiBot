@@ -11,7 +11,7 @@ namespace FikiBot.Models.Commands
         {
             List<Command> commands = new List<Command> 
             {
-                new SampleCommand()
+                new Ping()
 
                 //More commands
             };
